@@ -1,6 +1,6 @@
 import { OrbitControls, Point, Points, useTexture } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import { AdditiveBlending, MathUtils, Points as PointsType } from "three";
 
 const Particles = () => {
